@@ -4,6 +4,8 @@ Public open data catalog and distributable datasets for Observatorio de Sostenib
 
 Licensed under **CC-BY 4.0** unless otherwise noted per dataset.
 
+**Architecture spec:** [os-workspace/SPEC.md](https://github.com/observatorio-sostenibilidad/os-workspace/blob/main/SPEC.md) (v0.1 prototype)
+
 ## Layout
 
 ```

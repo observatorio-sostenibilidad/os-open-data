@@ -8,16 +8,33 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
+
       - name: Check catalog exists
         run: test -f catalog/index.yaml
+
+      - uses: actions/checkout@v4
+        with:
+          repository: observatorio-sostenibilidad/os-platform
+          path: os-platform
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          registry-url: https://npm.pkg.github.com
-          scope: '@os'
-      - run: npm install @os/content-schema@0.1.0 js-yaml
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          cache: pnpm
+          cache-dependency-path: os-platform/pnpm-lock.yaml
+
+      - name: Build content-schema from os-platform
+        working-directory: os-platform
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm --filter @os/content-schema build
         continue-on-error: true
