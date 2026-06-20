@@ -1,0 +1,10 @@
+@context:
+  - https://schema.org/
+  - https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/3.0.0/
+@type: dc:Catalog
+title: Observatorio de Sostenibilidad Open Data Catalog
+description: Public datasets published by Observatorio de Sostenibilidad
+publisher:
+  name: Observatorio de Sostenibilidad
+  url: https://www.observatoriosostenibilidad.org
+dataset: []
