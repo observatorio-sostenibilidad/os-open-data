@@ -7,4 +7,26 @@ description: Public datasets published by Observatorio de Sostenibilidad
 publisher:
   name: Observatorio de Sostenibilidad
   url: https://www.observatoriosostenibilidad.org
-dataset: []
+dataset:
+  - id: miteco-ghg-national-2025
+    uri: os://dataset/miteco/ghg-national-2025@1.0.0
+    title: National GHG Emissions Spain by Sector
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/miteco-ghg-national-2025
+  - id: os-ghg-ccaa-2025
+    uri: os://dataset/os/ghg-ccaa-2025@1.0.0
+    title: GHG emissions by autonomous community (PoC)
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-ghg-ccaa-2025
+  - id: ref-miteco-catalog
+    uri: os://source/miteco/catalog
+    title: MITECO Open Data Catalog
+    classification: reference
+    url: https://catalogo.datosabiertos.miteco.gob.es
+  - id: ref-aemet-opendata
+    uri: os://source/aemet/opendata
+    title: AEMET OpenData API
+    classification: reference
+    url: https://opendata.aemet.es

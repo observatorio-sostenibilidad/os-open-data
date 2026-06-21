@@ -1,4 +1,4 @@
-name: Validate catalog
+name: Validate open data
 
 on:
   push:
@@ -8,33 +8,28 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check catalog exists
-        run: test -f catalog/index.yaml
-
-      - uses: actions/checkout@v4
-        with:
-          repository: observatorio-sostenibilidad/os-platform
-          path: os-platform
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-          cache-dependency-path: os-platform/pnpm-lock.yaml
-
-      - name: Build content-schema from os-platform
-        working-directory: os-platform
+      - name: Validate datapackage files exist
         run: |
-          pnpm install --frozen-lockfile
-          pnpm --filter @os/content-schema build
-        continue-on-error: true
+          test -f datasets/miteco-ghg-national-2025/datapackage.json
+          test -f datasets/miteco-ghg-national-2025/data.parquet
+          test -f datasets/os-ghg-ccaa-2025/data.geoparquet
+          echo "Parquet pilot datasets present"
+
+      - uses: astral-sh/setup-uv@v5
+      - name: Parquet readable
+        run: |
+          uv pip install pyarrow --system
+          python3 - << 'PY'
+          import pyarrow.parquet as pq
+          from pathlib import Path
+          for p in [
+              Path("datasets/miteco-ghg-national-2025/data.parquet"),
+              Path("datasets/os-ghg-ccaa-2025/data.geoparquet"),
+          ]:
+              table = pq.read_table(p)
+              assert table.num_rows > 0, p
+              print(f"OK {p} rows={table.num_rows}")
+          PY

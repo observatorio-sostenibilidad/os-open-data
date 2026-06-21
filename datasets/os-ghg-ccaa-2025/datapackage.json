@@ -1,0 +1,19 @@
+{
+  "name": "os-ghg-ccaa-2025",
+  "title": "GHG emissions by autonomous community (PoC)",
+  "description": "Simplified CCAA polygons with illustrative CO2eq values for map PoC",
+  "version": "1.0.0",
+  "licenses": [{ "name": "CC-BY-4.0", "url": "https://creativecommons.org/licenses/by/4.0/" }],
+  "resources": [{
+    "name": "ccaa",
+    "path": "data.geoparquet",
+    "format": "geoparquet",
+    "schema": {
+      "fields": [
+        { "name": "name", "type": "string" },
+        { "name": "code", "type": "string" },
+        { "name": "co2eq_kt", "type": "number" }
+      ]
+    }
+  }]
+}

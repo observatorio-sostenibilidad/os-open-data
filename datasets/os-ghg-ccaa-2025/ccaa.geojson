@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "name": "ccaa",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    { "type": "Feature", "properties": { "name": "Andalucía", "code": "AN", "co2eq_kt": 42800 }, "geometry": { "type": "Polygon", "coordinates": [[[-7.5, 36.0], [-1.5, 36.0], [-1.5, 38.8], [-7.5, 38.8], [-7.5, 36.0]]] } },
+    { "type": "Feature", "properties": { "name": "Cataluña", "code": "CT", "co2eq_kt": 35200 }, "geometry": { "type": "Polygon", "coordinates": [[[0.0, 40.5], [3.5, 40.5], [3.5, 42.9], [0.0, 42.9], [0.0, 40.5]]] } },
+    { "type": "Feature", "properties": { "name": "Madrid", "code": "MD", "co2eq_kt": 28500 }, "geometry": { "type": "Polygon", "coordinates": [[[-4.5, 40.0], [-3.0, 40.0], [-3.0, 41.2], [-4.5, 41.2], [-4.5, 40.0]]] } },
+    { "type": "Feature", "properties": { "name": "País Vasco", "code": "PV", "co2eq_kt": 19800 }, "geometry": { "type": "Polygon", "coordinates": [[[-3.5, 42.8], [-1.5, 42.8], [-1.5, 43.5], [-3.5, 43.5], [-3.5, 42.8]]] } },
+    { "type": "Feature", "properties": { "name": "Valencia", "code": "VC", "co2eq_kt": 22100 }, "geometry": { "type": "Polygon", "coordinates": [[[-1.5, 38.5], [0.5, 38.5], [0.5, 40.8], [-1.5, 40.8], [-1.5, 38.5]]] } },
+    { "type": "Feature", "properties": { "name": "Galicia", "code": "GA", "co2eq_kt": 15600 }, "geometry": { "type": "Polygon", "coordinates": [[[-9.5, 41.8], [-6.5, 41.8], [-6.5, 43.8], [-9.5, 43.8], [-9.5, 41.8]]] } }
+  ]
+}
