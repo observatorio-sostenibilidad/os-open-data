@@ -30,3 +30,69 @@ dataset:
     title: AEMET OpenData API
     classification: reference
     url: https://opendata.aemet.es
+  - id: os-descarbonizacion-2025-europa-espana-ccaa-top-emitters
+    uri: os://dataset/os/descarbonizacion-2025-europa-espana-ccaa/top-emitters@1.0.0
+    title: Top 10 CO2 emitters Spain carbon market 2024
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-descarbonizacion-2025-europa-espana-ccaa-top-emitters
+  - id: os-emisiones-co2-ibex35-2025-total-emissions
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/total-emissions@1.0.0
+    title: IBEX35 total CO2eq emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-total-emissions
+  - id: os-emisiones-co2-ibex35-2025-scope-i
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-i@1.0.0
+    title: IBEX35 scope I emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-i
+  - id: os-emisiones-co2-ibex35-2025-scope-ii
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-ii@1.0.0
+    title: IBEX35 scope II emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-ii
+  - id: os-emisiones-co2-ibex35-2025-scope-iii
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-iii@1.0.0
+    title: IBEX35 scope III emissions by company
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-iii
+  - id: os-emisiones-co2-ibex35-2025-banking-sector
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/banking-sector@1.0.0
+    title: Banking sector CO2eq emissions
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-banking-sector
+  - id: os-emisiones-co2-ibex35-2025-scope-i-change
+    uri: os://dataset/os/emisiones-co2-ibex35-2025/scope-i-change@1.0.0
+    title: Scope I emission change 2022-2023
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-emisiones-co2-ibex35-2025-scope-i-change
+  - id: os-inundaciones-2024-muertes-evitables-flood-risk-q100
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/flood-risk-q100@1.0.0
+    title: Population at Q100 flood risk by urban area
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-flood-risk-q100
+  - id: os-inundaciones-2024-muertes-evitables-flood-risk-ccaa
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/flood-risk-ccaa@1.0.0
+    title: Population at Q100 flood risk by region
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-flood-risk-ccaa
+  - id: os-inundaciones-2024-muertes-evitables-dana-2024-population
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-population@1.0.0
+    title: DANA 2024 affected population by municipality
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-dana-2024-population
+  - id: os-inundaciones-2024-muertes-evitables-dana-2024-income
+    uri: os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-income@1.0.0
+    title: DANA 2024 affected population by income band
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-inundaciones-2024-muertes-evitables-dana-2024-income
