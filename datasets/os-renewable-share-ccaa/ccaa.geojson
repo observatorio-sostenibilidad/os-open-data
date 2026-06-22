@@ -12,7 +12,7 @@
       "type": "Feature",
       "properties": {
         "name": "Andalucía",
-        "co2eq_kt": 42800,
+        "renewable_pct": 38.2,
         "code": "AN"
       },
       "geometry": {
@@ -2005,7 +2005,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cataluña",
-        "co2eq_kt": 35200,
+        "renewable_pct": 31.5,
         "code": "CT"
       },
       "geometry": {
@@ -3534,7 +3534,7 @@
       "type": "Feature",
       "properties": {
         "name": "Madrid",
-        "co2eq_kt": 28500,
+        "renewable_pct": 12.4,
         "code": "MD"
       },
       "geometry": {
@@ -4449,7 +4449,7 @@
       "type": "Feature",
       "properties": {
         "name": "País Vasco",
-        "co2eq_kt": 19800,
+        "renewable_pct": 28.7,
         "code": "PV"
       },
       "geometry": {
@@ -5558,7 +5558,7 @@
       "type": "Feature",
       "properties": {
         "name": "Valencia",
-        "co2eq_kt": 22100,
+        "renewable_pct": 34.1,
         "code": "VC"
       },
       "geometry": {
@@ -6879,7 +6879,7 @@
       "type": "Feature",
       "properties": {
         "name": "Galicia",
-        "co2eq_kt": 15600,
+        "renewable_pct": 52.8,
         "code": "GA"
       },
       "geometry": {

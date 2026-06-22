@@ -84,6 +84,12 @@ dataset:
     classification: public
     license: CC-BY-4.0
     path: datasets/os-inundaciones-2024-muertes-evitables-flood-risk-ccaa
+  - id: os-renewable-share-ccaa
+    uri: os://dataset/os/renewable-share-ccaa@1.0.0
+    title: Renewable electricity share by autonomous community (editorial demo)
+    classification: public
+    license: CC-BY-4.0
+    path: datasets/os-renewable-share-ccaa
   - id: os-inundaciones-2024-muertes-evitables-dana-2024-population
     uri: os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-population@1.0.0
     title: DANA 2024 affected population by municipality
