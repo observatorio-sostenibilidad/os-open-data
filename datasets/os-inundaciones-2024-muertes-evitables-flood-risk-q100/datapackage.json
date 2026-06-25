@@ -43,7 +43,8 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "os:query": true
     }
   ],
   "os:provenance": {
@@ -51,5 +52,13 @@
     "sourceFile": "poblacion-riesgo-q100.json",
     "sourceHash": "114b50d0fe522c64a0b75638aff6ad4d77199b7d78d56df1ef19538c3f2b462e",
     "registeredAt": "2026-06-21T15:06:28.722834+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/inundaciones-2024-muertes-evitables/flood-risk-q100@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
   }
 }

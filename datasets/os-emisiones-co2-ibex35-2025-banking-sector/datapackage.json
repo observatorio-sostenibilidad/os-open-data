@@ -51,7 +51,8 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "os:query": true
     }
   ],
   "os:provenance": {
@@ -59,5 +60,13 @@
     "sourceFile": "sector-bancario.json",
     "sourceHash": "02927fe5e12f862c032294107a21169b0a8a9ec6ad75d1771d7fd7a167dd8613",
     "registeredAt": "2026-06-21T15:06:28.714411+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/emisiones-co2-ibex35-2025/banking-sector@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
   }
 }

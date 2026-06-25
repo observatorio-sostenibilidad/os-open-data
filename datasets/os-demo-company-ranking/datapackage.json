@@ -25,5 +25,13 @@
     "pipeline": "os://transform/os/demo-seed@1.0.0",
     "pulledAt": "2026-06-21T00:00:00Z",
     "note": "Synthetic data — company names are fictional"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/demo/company-ranking@1.0.0",
+    "classification": "public",
+    "visibility": "demo",
+    "origin": "os_synthetic",
+    "kind": "tabular",
+    "status": "published"
   }
 }

@@ -35,7 +35,8 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "os:query": true
     }
   ],
   "os:provenance": {
@@ -43,5 +44,13 @@
     "sourceFile": "dana-2024-poblacion-afectada.json",
     "sourceHash": "a790fca6ac8f45169d76d9f9525af8765cde3c843867f2302f8008af91525e03",
     "registeredAt": "2026-06-21T15:06:28.729533+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/inundaciones-2024-muertes-evitables/dana-2024-population@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
   }
 }

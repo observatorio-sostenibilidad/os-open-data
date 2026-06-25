@@ -39,7 +39,8 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "os:query": true
     }
   ],
   "os:provenance": {
@@ -47,5 +48,13 @@
     "sourceFile": "alcance-ii-empresas.json",
     "sourceHash": "3abd5796e105729972a91a878c94db3440affb58dadf5abe4eaaceff20b7dcba",
     "registeredAt": "2026-06-21T15:06:28.707786+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/emisiones-co2-ibex35-2025/scope-ii@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published"
   }
 }

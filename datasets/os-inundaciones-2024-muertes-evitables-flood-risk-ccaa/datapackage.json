@@ -43,5 +43,21 @@
     "sourceFile": "poblacion-riesgo-ccaa.json",
     "sourceHash": "f524fa1769d896e81ea6df70e9c0d8dcf9bb990e04f293219d63b8cfc86af71d",
     "registeredAt": "2026-06-21T15:06:28.726295+00:00"
+  },
+  "os:dataset": {
+    "uri": "os://dataset/os/inundaciones-2024-muertes-evitables/flood-risk-ccaa@1.0.0",
+    "classification": "public",
+    "visibility": "production",
+    "origin": "os_derived",
+    "kind": "tabular",
+    "status": "published",
+    "queryResource": "flood-risk",
+    "geoLayer": {
+      "id": "flood-risk-ccaa",
+      "valueProperty": "poblacion_q100",
+      "sourceLayer": "ccaa",
+      "defaultEngine": "d3-geo",
+      "staticDir": "os-inundaciones-2024-muertes-evitables-flood-risk-ccaa"
+    }
   }
 }
